@@ -78,8 +78,22 @@ const Index = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="py-20 px-4">
-        <div className="container mx-auto text-center">
+      <section className="relative py-20 px-4 overflow-hidden">
+        {/* Background Characters */}
+        <div className="absolute inset-0 pointer-events-none">
+          <img 
+            src="https://cdn.poehali.dev/files/44790a52-9681-4771-be1a-f454d785ad87.png" 
+            alt="КРМП персонаж"
+            className="absolute left-8 bottom-0 h-96 opacity-20 animate-fade-in"
+          />
+          <img 
+            src="https://cdn.poehali.dev/files/9f0fe3b1-3627-4b04-abbd-cbf174b92190.png" 
+            alt="КРМП персонаж"
+            className="absolute right-8 bottom-0 h-96 opacity-20 animate-fade-in"
+          />
+        </div>
+        
+        <div className="container mx-auto text-center relative z-10">
           <h1 className="orbitron text-5xl md:text-7xl font-black mb-6 bg-gradient-to-r from-primary to-orange-400 bg-clip-text text-transparent">
             КРМП ПРОЕКТ
           </h1>
