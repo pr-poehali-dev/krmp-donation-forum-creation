@@ -6,10 +6,10 @@ import Icon from "@/components/ui/icon";
 const Index = () => {
   const donationPackages = [
     {
-      title: "Starter",
-      price: "299₽",
+      title: "Новичок",
+      price: "150₽",
       description: "Базовый пакет для начинающих",
-      features: ["VIP статус", "Эксклюзивный транспорт", "Стартовый капитал"],
+      features: ["100.000₽ игровой валюты", "VIP статус", "Эксклюзивный транспорт"],
       popular: false
     },
     {
